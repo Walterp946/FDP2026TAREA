@@ -9,7 +9,7 @@ int main(){
     cin >> numero;
 
     if(numero == 1 && numero <= 5){
-        cout << "El dia" << 
+        cout << "El dia" << endl;
     }
 
 

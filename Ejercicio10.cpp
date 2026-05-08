@@ -11,7 +11,7 @@ int main()
     cin>> peso;
 
     if (peso => 0 && peso <= 5){
-cout 
+        
     }
 
         int cobro = billetera - 5;
