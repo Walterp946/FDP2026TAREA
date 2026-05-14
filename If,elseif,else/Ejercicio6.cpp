@@ -11,12 +11,7 @@ int main(){
     if(numero == 1 && numero <= 5){
         cout << "El dia" << endl;
     }
-
-
-
-
-
-
+    
 
     return 0;
 

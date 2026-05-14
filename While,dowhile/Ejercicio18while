@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+int numero, numero_verdadero, contador = 0;
+
+cout << "Ingrese un numero para iniciar la adivinanza: " << endl;
+cout << "Su nu";
+    cin >> contador;
+
+    while(numero)
+
+
+
+
+    return 0;
+}

@@ -4,11 +4,11 @@
 using namespace std;
 int main()
 {
-    
+
     int opc;
     float num1, num2;
-    
-    cout << "Bienvenidos a la calculadora\n"; 
+
+    cout << "Bienvenidos a la calculadora\n";
     cout << "1. Suma\n";
     cout << "2. Resta\n";
     cout << "3. Multiplicacion\n";
@@ -18,42 +18,43 @@ int main()
     cout << "7. Salir\n";
     cout << "Ingrese una opcion: ";
     cin >> opc;
-    
+
     cout << "Ingrese el primer valor: ";
     cin >> num1;
     cout << "Ingrese el segundo valor: ";
     cin >> num2;
-    
-    switch(opc){
+
+    switch (opc)
+    {
+
+    case 1:
+        cout << " La suma actual es: "<< num1 + num2 << endl;
         
-        case 1:
-        cout << num1 + num2;
         break;
-        
-        case 2:
+
+    case 2:
         cout << num1 - num2;
         break;
-        
-        case 3:
-        cout << num1*num2;
+
+    case 3:
+        cout << num1 * num2;
         break;
-        
-        case 4:
-        cout << num1/num2;
+
+    case 4:
+        cout << num1 / num2;
         break;
-        
-        case 5:
+
+    case 5:
         cout << pow(num1, num2);
         break;
-        
-        case 6:
+
+    case 6:
         cout << fmod(num1, num2);
         break;
-        
-        default:
+
+    default:
         cout << "La opcion ingresada no es valida";
         break;
-        
     }
 
     return 0;
