@@ -17,7 +17,7 @@ int main()
         cout << "Suma actual es: " << total << endl;
     }
 
-    cout << "La suma de todos los numeros es: " <<  total;
+    cout << "La suma de todos los numeros es: " <<  total * 2;
 
     return 0;
 }
